@@ -1,0 +1,23 @@
+we will be learning bash syhelling
+in order to seacrh shell typs write 'cat /etc/shells' and press enter 
+this willl display what types of shell ur device supports 
+(sh stands for bourne shell)which was the orginal shell)
+
+-----------------------------------------------------------------------------------------------
+CREATE A NEW FILE IN BASH 
+use the 'touch command' to make a new file 'touch hello.sh' 
+*Note:the .sh is not needed to ecxacute ur command
+-------------------------------------------------------------------------------------------------
+DETAILS ABOUT THE FILE
+whenever u crteate a file with the touch command and 
+use "ls -al" you will see your hello file
+with rw-rw-r
+ (read and write-read and write for the group-read only permission for the user )
+---------------------------------------------------------------------------------------------------
+WRITING THE SCRIPT
+when writing script its is standard practise to use #!/bin/bash
+the you can write using ur script 
+'echo "hello world"' echo command is ther print function
+save this and run the script ( CONNECT TO FILE NAME bash1.sh)
+
+
